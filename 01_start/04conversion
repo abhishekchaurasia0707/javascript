@@ -1,0 +1,11 @@
+/*+++++++++++++++++++++++++++++++++++++++Operations+++++++++++++++++++++++++++++++++++++++++++*/
+let value=1;
+let negvalue=-value;
+console.log(negvalue);
+
+console.log("1"+2);// as it start with string it will treated as a string and give output 12;
+console.log(1+"2");// will give 12;
+console.log("1"+2+2);
+console.log(1+2+"2");//here string comes in last hence first addition will be formed the give output as 32;
+console.log(+true);//will give 1 as a output;
+console.log(+"");//will give 0 as output;
